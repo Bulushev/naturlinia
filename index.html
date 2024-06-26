@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>НатурЛиния — официальный сайт</title>
+    <meta name="description"
+        content="Тщательно отобранные и выращенные с любовью специи. Натуральные, вкусные и питательные, именно такие какими их задумала природа">
+    <meta property="og:title" content="НатурЛиния — официальный сайт">
+    <meta property="og:description"
+        content="Тщательно отобранные и выращенные с любовью специи. Натуральные, вкусные и питательные, именно такие какими их задумала природа">
+    <meta property="og:image" content="/images/logotype.svg">
+    <meta property="og:url" content="https://naturlinia.ru">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="/scripts/main.js" defer></script>
+
+</head>
+
+<body>
+    <!-- Main -->
+    <section id="main">
+        <div class="container">
+            <!-- Header -->
+            <header class="header">
+                <div class="header-buttons">
+                    <button class="header-button" id="products-link">Продукты</button>
+                    <button class="header-button" id="recipes-link">Рецепты</button>
+                </div>
+                <a href="/">
+                    <img src="images/logotype.svg" alt="" class="header-logotype">
+                    <img src="images/logotype-row.svg" alt="" class="header-logotype_row">
+                </a>
+                <div class="header-buttons">
+                    <button class="header-button" id="about-link">О компании</button>
+                    <button class="header-button" id="contacts-link">Контакты</button>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="12" viewBox="0 0 22 12" class="header-menu">
+                    <path d="M1 1H21" stroke="#123704" stroke-width="2" stroke-linecap="round" />
+                    <path d="M1 6H21" stroke="#123704" stroke-width="2" stroke-linecap="round" />
+                    <path d="M1 11H21" stroke="#123704" stroke-width="2" stroke-linecap="round" />
+                </svg>
+            </header>
+            <div class="header-mobile">
+                <a href="#"><img src="images/logo-footer.svg" alt=""></a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="12" viewBox="0 0 22 12" fill="none">
+                    <path d="M1 1H21" stroke="#123704" stroke-width="2" stroke-linecap="round" />
+                    <path d="M1 6H21" stroke="#123704" stroke-width="2" stroke-linecap="round" />
+                    <path d="M1 11H21" stroke="#123704" stroke-width="2" stroke-linecap="round" />
+                </svg>
+            </div>
+            <!--  -->
+            <div id="main-content">
+                <h1 class="main-content_title">Сделайте жизнь ярче — добавьте щепотку специй!</h1>
+                <p class="main-content_text">Тщательно отобранные и выращенные с любовью специи. Натуральные, вкусные и
+                    питательные, именно такие какими их задумала природа</p>
+                <a class="main-content_button" href="/products/">Посмотреть каталог</a>
+            </div>
+            <div id="menu-wrapper">
+                <div class="menu-buttons">
+                    <div class="menu-button">Продукты</div>
+                    <div class="menu-button">Рецепты</div>
+                    <div class="menu-button" id="about-link">О Компании</div>
+                    <div class="menu-button">Контакты</div>
+                </div>
+            </div>
+        </div>
+        <!-- Categories -->
+        <div id="main-categories">
+            <div class="main-categories_wrapper">
+                <div class="main-categories_item">
+                    <img class="main-categories-item__image" src="images/item1.jpg" alt="">
+                    <p class="main-categories-item__text">Приправы</p>
+                </div>
+                <div class="main-categories_item">
+                    <img class="main-categories-item__image" src="images/item2.jpg" alt="">
+                    <p class="main-categories-item__text">Специи</p>
+                </div>
+                <div class="main-categories_item">
+                    <img class="main-categories-item__image" src="images/item3.jpg" alt="">
+                    <p class="main-categories-item__text">Перцы</p>
+                </div>
+                <div class="main-categories_item">
+                    <img class="main-categories-item__image" src="images/item4.jpg" alt="">
+                    <p class="main-categories-item__text">Травы</p>
+                </div>
+                <div class="main-categories_item">
+                    <img class="main-categories-item__image" src="images/item5.jpg" alt="">
+                    <p class="main-categories-item__text">Кулинарные добавки</p>
+                </div>
+                <div class="main-categories_item">
+                    <img class="main-categories-item__image" src="images/item6.jpg" alt="">
+                    <p class="main-categories-item__text">HoReCa</p>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+    </section>
+
+    <section class="section-second">
+        <div class="content-second">
+            <h2>Хиты продаж</h2>
+            <div class="content-second-items-wrapper">
+                <div style="display: none;"><button id="allproducts">Все продукты</button>
+                    <button id="seasonings">Приправы</button>
+                    <button id="spices">Специи</button>
+                    <button id="peppers">Перцы</button>
+                    <button id="herbs">Травы</button>
+                    <button id="supplements">Кулинарные добавки</button>
+                    <button id="horeca"></button>HoReCa</button>
+                </div>
+                <div class="content-second-item products-container main-products"></div>
+            </div>
+            <!--<button class="all-products" id="allproducts-btn">Посмотреть все продукты-->
+            <!--    <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">-->
+            <!--        <path-->
+            <!--            d="M6.71027 6.70469L11.7062 1.71296C11.7993 1.61988 11.8732 1.50937 11.9236 1.38775C11.974 1.26613 12 1.13578 12 1.00413C12 0.738274 11.8943 0.483301 11.7062 0.295309C11.613 0.202225 11.5024 0.128386 11.3807 0.0780091C11.2589 0.0276322 11.1285 0.00170422 10.9967 0.00170421C10.7307 0.0017042 10.4755 0.107317 10.2873 0.295309L6.00085 4.5882L1.71438 0.295309C1.6215 0.201735 1.51099 0.127464 1.38923 0.0767795C1.26747 0.0260948 1.13687 -4.74842e-07 1.00497 -4.80608e-07C0.873066 -4.86374e-07 0.742468 0.0260948 0.620709 0.0767795C0.498951 0.127464 0.388442 0.201735 0.295555 0.295309C0.201904 0.388118 0.127569 0.498536 0.0768423 0.620194C0.0261154 0.741851 -3.81313e-08 0.872341 -4.38921e-08 1.00413C-4.9653e-08 1.13593 0.0261154 1.26642 0.0768422 1.38808C0.127569 1.50973 0.201904 1.62015 0.295555 1.71296L5.29144 6.70469C5.38432 6.79826 5.49483 6.87254 5.61659 6.92322C5.73835 6.97391 5.86895 7 6.00085 7C6.13275 7 6.26335 6.97391 6.38511 6.92322C6.50687 6.87254 6.61738 6.79826 6.71027 6.70469Z"-->
+            <!--            fill="white" />-->
+            <!--    </svg>-->
+            <!--</button>-->
+        </div>
+        <img class="decor" src="images/decor-1.png" alt="">
+    </section>
+    <section id="ourstory">
+        <div class="decor-opacity">
+        </div>
+        <div class="ourstory-content">
+            <div class="ourstory-wallpaper">
+                <div class="img-items">
+                    <img src="images/history-item1.jpg" alt="">
+                    <img src="images/history-item2.jpg" alt="">
+                    <img src="images/history-item3.jpg" alt="">
+                </div>
+                <div class="img-items-2">
+                    <img src="images/history-item4.jpg" alt="">
+                    <img src="images/history-item5.jpg" alt="">
+                    <img src="images/history-item6.jpg" alt="">
+                    <img src="images/history-item7.jpg" alt="">
+                </div>
+            </div>
+            <div class="text-items">
+                <h2>
+                    наша история
+                </h2>
+                <p>
+                    Много лет мы работали на российском рынке, сотрудничая с известными компаниями пищевой
+                    промышленности такими как: Nestle, Gallina Blanca, Knorr и многие другие. Благодаря полученному
+                    опыту и огромному желанию развиваться в этой сфере, появилась цель: создание российского
+                    производства.
+                </p>
+                <a href="/about/">
+                    Узнать больше
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="salleshits">
+        <div class="content-fourth">
+            <h2>рецепты от шеф-повара</h2>
+            <div class="content-fourth-item-wrapper">
+                <a href="/recipes/003" class="item">
+                    <img src="/images/recipes/003.jpg" alt="">
+                    <div class="item-text">
+                        <div class="description">
+                            <span>10 минут</span>
+                            <span>•</span>
+                            <span>Для новичков</span>
+                            <span>•</span>
+                            <span>3 порции</span>
+                        </div>
+                        <p class="title">Овсянка с бананом и черникой</p>
+                    </div>
+                </a>
+                <a href="/recipes/004" class="item">
+                    <img src="/images/recipes/004.jpg" alt="">
+                    <div class="item-text">
+                        <div class="description">
+                            <span>1,5 часа</span>
+                            <span>•</span>
+                            <span>Для новичков</span>
+                            <span>•</span>
+                            <span>8 порций</span>
+                        </div>
+                        <p class="title">Пряный суп из тыквы</p>
+                    </div>
+                </a>
+                <a href="/recipes/001" class="item">
+                    <img src="/images/recipes/001.jpg" alt="">
+                    <div class="item-text">
+                        <div class="description">
+                            <span>10 минут</span>
+                            <span>•</span>
+                            <span>Для новичков</span>
+                            <span>•</span>
+                            <span>2 порции</span>
+                        </div>
+                        <p class="title">Ванильно-ореховый чиа завтрак</p>
+                    </div>
+                </a>
+            </div>
+            <a class="all-products" href="/recipes/">
+                Посмотреть все рецепты
+            </a>
+        </div>
+    </section>
+</body>
+
+</html>

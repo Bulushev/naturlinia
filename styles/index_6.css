@@ -1,0 +1,318 @@
+.sixth-section-intro {
+    background: #FFFCFA;
+}
+
+.sixth-section-intro .content {
+    padding: calc(50.18 / 1920 * 100vw) 0 calc(50 / 1920 * 100vw);
+    display: flex;
+    gap: calc(51 / 1920 * 100vw);
+}
+
+.first-child-wrapper {
+    display: flex;
+    gap: calc(20 / 1920 * 100vw);
+    flex-direction: column;
+}
+
+.first-child-wrapper .img-recipies img {
+    width: calc(558 / 1920 * 100vw);
+    height: calc(400 / 1920 * 100vw);
+    object-fit: cover;
+    border-radius: calc(10 / 1920 * 100vw);
+}
+
+.second-child-wrapper .description-recipies {
+    display: flex;
+    flex-direction: column;
+    gap: calc(10 / 1920 * 100vw);
+    font-family: Nunito Sans;
+}
+
+.second-child-wrapper .description-recipies .prewiev {
+    display: flex;
+    gap: calc(10 / 1920 * 100vw);
+    align-items: center;
+    font-size: calc(18 / 1920 * 100vw);
+    line-height: 125%;
+}
+
+.second-child-wrapper .description-recipies .prewiev a {
+    color: #111;
+}
+
+.second-child-wrapper .description-recipies .prewiev svg {
+    width: calc(16 / 1920 * 100vw);
+}
+
+.second-child-wrapper .description-recipies h2 {
+    font-size: calc(48 / 1920 * 100vw);
+    line-height: 125%;
+    font-weight: 600;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.second-child-wrapper .description-recipies .specifications {
+    display: flex;
+    align-items: center;
+    gap: calc(20 / 1920 * 100vw);
+    font-size: calc(20 / 1920 * 100vw);
+    color: #768466;
+    font-weight: 700;
+    line-height: 135%;
+}
+
+.second-child-wrapper .description-recipies .text {
+    font-size: calc(24 / 1920 * 100vw);
+    padding-top: calc(10 / 1920 * 100vw);
+    font-weight: 600;
+    line-height: 116.667%;
+}
+
+.second-child-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: calc(30 / 1920 * 100vw);
+}
+
+.first-child-wrapper .characteristic {
+    display: flex;
+    flex-direction: column;
+    padding: calc(25 / 1920 * 100vw) calc(23 / 1920 * 100vw) calc(5 / 1920 * 100vw);
+    border: 2px solid #F6F3F0;
+    background: #fff;
+    border-radius: calc(10 / 1920 * 100vw);
+    font-family: Nunito Sans;
+    white-space: nowrap;
+}
+
+.first-child-wrapper .characteristic h2 {
+    font-size: calc(24 / 1920 * 100vw);
+    font-weight: 600;
+    line-height: 125%;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    padding-bottom: calc(10 / 1920 * 100vw);
+}
+
+.first-child-wrapper .characteristic .characteristic-item-bold {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: calc(10 / 1920 * 100vw) 0;
+    border-top: 1px solid #F6F3F0;
+    font-size: calc(18 / 1920 * 100vw);
+    font-weight: 600;
+    line-height: 155.556%;
+    color: #000;
+}
+
+.characteristic-item-bold:hover {
+    opacity: .8;
+}
+
+.first-child-wrapper .characteristic .characteristic-item-bold .items-img {
+    display: flex;
+    align-items: center;
+    gap: calc(15 / 1920 * 100vw);
+}
+
+.first-child-wrapper .characteristic .characteristic-item-bold .items-img img {
+    width: calc(36 / 1920 * 100vw);
+}
+
+.first-child-wrapper .characteristic .characteristic-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: calc(10 / 1920 * 100vw) 0;
+    line-height: 155.556%;
+    border-top: 1px solid #F6F3F0;
+    font-size: calc(18 / 1920 * 100vw);
+}
+
+.first-child-wrapper .characteristic .characteristic-item p:nth-child(2) {
+    font-weight: 600;
+}
+
+.second-child-wrapper .description-item {
+    display: flex;
+    flex-direction: column;
+    gap: calc(10 / 1920 * 100vw);
+}
+
+.second-child-wrapper .description-item h2 {
+    font-size: calc(24 / 1920 * 100vw);
+    font-weight: 600;
+    line-height: 125%;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.second-child-wrapper .description-item p {
+    font-size: calc(20 / 1920 * 100vw);
+    font-family: Nunito Sans;
+    line-height: 125%;
+}
+
+.fiveth-section-second {
+    background: #FFFCFA;
+}
+
+.fiveth-section-second .container {
+    padding-bottom: calc(70 / 1920 * 100vw);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: calc(30 / 1920 * 100vw);
+}
+
+.fiveth-section-second .container h2 {
+    font-size: calc(40 / 1920 * 100vw);
+    color: #1E530A;
+    font-weight: 600;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    line-height: 125%;
+    text-transform: uppercase;
+}
+
+.fiveth-section-second .container .orange-button {
+    background: #E78818;
+    color: #fff;
+    padding: calc(13 / 1920 * 100vw) calc(30 / 1920 * 100vw);
+    border-radius: calc(30 / 1920 * 100vw);
+    font-size: calc(20 / 1920 * 100vw);
+    font-weight: 700;
+    font-family: Nunito Sans;
+    line-height: 125%;
+}
+
+.second-child-wrapper .characteristic {
+    display: none;
+}
+
+@media screen and (max-width:480px) {
+    .sixth-section-intro .content {
+        flex-direction: column;
+        align-items: center;
+        padding: calc(30 / 320 * 100vw) 0;
+    }
+
+    .first-child-wrapper .img-recipies img {
+        width: 100%;
+        height: calc(200 / 320 * 100vw);
+        border-radius: calc(10 / 320 * 100vw);
+    }
+
+    .first-child-wrapper .characteristic {
+        display: none;
+    }
+    .second-child-wrapper .description-recipies{
+        gap: calc(10.4 / 320 * 100vw);
+    }
+    .second-child-wrapper .description-recipies .prewiev {
+        gap: calc(5 / 320 * 100vw);
+        font-size: calc(12 / 320 * 100vw);
+    }
+
+    .second-child-wrapper .description-recipies .prewiev svg {
+        width: calc(16 / 320 * 100vw);
+    }
+
+    .second-child-wrapper .description-recipies h2 {
+        font-size: calc(32 / 320 * 100vw);
+    }
+
+    .second-child-wrapper .description-recipies .specifications {
+        gap: calc(7.04 / 320 * 100vw);
+        font-size: calc(11 / 320 * 100vw);
+    }
+
+    .second-child-wrapper .description-recipies .text {
+        font-size: calc(15 / 320 * 100vw);
+        line-height: 126.667%;
+        padding-top: calc(9.36 / 320 * 100vw);
+    }
+
+    .second-child-wrapper .description-item h2 {
+        font-size: calc(15 / 320 * 100vw);
+    }
+
+    .second-child-wrapper .description-item p {
+        font-size: calc(15 / 320 * 100vw);
+    }
+
+    .second-child-wrapper .characteristic {
+        display: flex;
+        flex-direction: column;
+        padding: calc(10 / 320 * 100vw) calc(10 / 320 * 100vw) calc(4 / 320 * 100vw);
+        border: 2px solid #F6F3F0;
+        background: #fff;
+        border-radius: calc(5 / 320 * 100vw);
+        font-family: Nunito Sans;
+        white-space: nowrap;
+    }
+
+    .second-child-wrapper .characteristic h2 {
+        font-size: calc(16 / 320 * 100vw);
+        font-weight: 600;
+        line-height: 125%;
+        font-family: 'Fira Sans Condensed', sans-serif;
+        padding-bottom: calc(10 / 320 * 100vw);
+    }
+
+    .second-child-wrapper .characteristic .characteristic-item-bold {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: calc(4.89 / 320 * 100vw) 0;
+        border-top: 1px solid #F6F3F0;
+        font-size: calc(12 / 320 * 100vw);
+        font-weight: 600;
+        line-height: 154.259%;
+
+    }
+
+    .second-child-wrapper .characteristic .characteristic-item-bold .items-img {
+        display: flex;
+        align-items: center;
+        gap: calc(9.92 / 320 * 100vw);
+    }
+
+    .second-child-wrapper .characteristic .characteristic-item-bold .items-img img {
+        width: calc(23.84 / 320 * 100vw);
+    }
+
+    .second-child-wrapper .characteristic .characteristic-item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: calc(5.11 / 320 * 100vw) 0 calc(4.89 / 320 * 100vw);
+        line-height: 154.259%;
+        border-top: 1px solid #F6F3F0;
+        font-size: calc(12 / 320 * 100vw);
+    }
+
+    .second-child-wrapper .characteristic .characteristic-item p:nth-child(2) {
+        font-weight: 600;
+    }
+
+    .second-child-wrapper {
+        gap: calc(20 / 320 * 100vw);
+    }
+
+    .second-child-wrapper .description-item {
+        gap: calc(10 / 320 * 100vw);
+    }
+    .fiveth-section-second .container h2{
+        font-size: calc(32 / 320 * 100vw);
+    }
+    .fiveth-section-second .container{
+        gap: calc(20 / 320 * 100vw);
+        padding-bottom: calc(30 / 320 * 100vw);
+    }
+    .fiveth-section-second .container .orange-button{
+        font-size: calc(15 / 320 * 100vw);
+        border-radius: calc(30 / 320 * 100vw);
+        padding: calc(13 / 320 * 100vw) calc(28 / 320 * 100vw);
+        margin-top: calc(10 / 320 * 100vw);
+    }
+  
+}
